@@ -1,0 +1,87 @@
+html, body{
+    scroll-behavior: smooth;
+}
+
+#topAreaDiv{
+    width: 100%;
+    background-color: #badbff;
+    overflow: auto;
+}
+
+#topTitleDiv, #aboutUsDiv{
+    float: left;
+}
+
+#topTitleDiv{
+    margin-top: 5px;
+    margin-left: 2%;
+    width: 93%;
+}
+
+#aboutUsDiv{
+    margin-top: 10px;
+    width: 5%;
+}
+
+#funcTable{
+    background-color: #b6fcdf;
+}
+
+.col-md-2{
+    border-right: 1px #939393 solid;
+    text-align: center;
+}
+
+#funcButtonsDiv{
+    position: fixed;
+    right: 0px;
+    bottom: 5%;
+    float: right;
+}
+
+#backToTopDiv{
+    position: relative;
+    right: 0px;
+    bottom: 0px;
+}
+
+#backIcon{
+    display: block;
+    height: 50px;
+    width: 50px;
+}
+
+#contentsMenuDiv{
+    position: fixed;
+    top: 10%;
+    margin-top: 2%;
+    margin-left: 4%;
+    float: left;
+    width: 15%;
+    border: 1px #cecece solid;
+}
+
+#category1Div, #category2Div, #category3Div, #category4Div, #category5Div{
+    height: auto;
+    border-bottom: 1px #cecece solid;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#mainContentsDiv{
+    margin-left: 25%;
+    margin-right: 10%;
+    margin-top: 2%;
+}
+
+#c1ContentsDiv, #c2ContentsDiv, #c3ContentsDiv{
+    height: auto;
+}
+
+[id~=ContentsDiv]{
+    alignment: center;
+}
+
+tr+td{
+    width: 15%;
+}

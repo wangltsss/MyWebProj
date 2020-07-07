@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="Style.css" type="text/css">
+    <script src="uSites.js"></script>
+    <meta charset="UTF-8">
+    <title>Beta0.2</title>
+</head>
+<body>
+    <div id="topAreaDiv">
+        <div id="topTitleDiv">
+            <h3 id="topTitle">HEHS <b>2020</b></h3>
+        </div>
+        <div id="aboutUsDiv">
+            <a id="aUsLink" href="">
+                <span id="aUsInfo" style="font-size: 12px">关于本站</span>
+            </a>
+        </div>
+    </div>
+    <div id="funcTableDiv" class="row">
+        <div id="usefulSitesDiv" class="col-md-2">
+            <a id="uSitesLink" href="usites.html">
+                <span id="uSitesTitle">实用网址</span>
+            </a>
+        </div>
+        <div id="picWallDiv" class="col-md-2">
+            <a id="pWallLink" href="">
+                <span id="pWallTitle">照片墙</span>
+            </a>
+        </div>
+        <div id="contactsInfoDiv" class="col-md-2">
+            <a id="cInfoLink" href="">
+                <span id="cInfoTitle">联系方式(开发中)</span>
+            </a>
+        </div>
+        <div id="uniDistributionDiv" class="col-md-2">
+            <a id="uDistributionLink" href="">
+                <span id="uDistributionTitle">大学分布(开发中)</span>
+            </a>
+        </div>
+        <div id="msgBoardDiv" class="col-md-2">
+            <a id="mBoardLink" href="">
+                <span id="mBoardTitle">留言板(开发中)</span>
+            </a>
+        </div>
+        <div id="moreFuncDiv" class="col">
+            <span id="mFuncTitle">更多功能(开发中)</span>
+        </div>
+    </div>
+    <div id="contentsDiv">
+        <div id="contentsMenuDiv">
+            <div id="category1Div" onclick="goToCategory('#c1ContentsDiv')">
+                <img id="c1Pic" src="">
+                <span id="c1Title">资源类</span>
+            </div>
+            <div id="category2Div" onclick="goToCategory('#c2ContentsDiv')">
+                <img id="c2Pic" src="">
+                <span id="c2Title">分类二</span>
+            </div>
+            <div id="category3Div" onclick="goToCategory('#c3ContentsDiv')">
+                <img id="c3Pic" src="">
+                <span id="c3Title">分类三</span>
+            </div>
+            <div id="category4Div" onclick="goToCategory('#c4ContentsDiv')">
+                <img id="c4Pic" src="">
+                <span id="c4Title">分类四</span>
+            </div>
+            <div id="category5Div" onclick="goToCategory('#c5ContentsDiv')">
+                <img id="c5Pic" src="">
+                <span id="c5Title">分类五</span>
+            </div>
+        </div>
+        <div id="mainContentsDiv">
+            <div id="c1ContentsDiv" class="table-responsive">
+                <table class="table table-hover table-striped table-bordered">
+                    <thead>
+                        <th colspan="4">资源类</th>
+                    </thead>
+                    <tr>
+                        <td>
+                            <a href="http://www.runoob.com" target="_blank">
+                                <img src="runoob.ico">
+                                <span>菜鸟教程</span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="https://zh.savefrom.net/7/" target="_blank">
+                                <img src="savefrom.ico">
+                                <span>youtube下载器</span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="c2ContentsDiv">
+                <table class="table table-hover table-striped table-bordered">
+                    <thead>
+                    <th colspan="4">类别2</th>
+                    </thead>
+                    <tr>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="c3ContentsDiv">
+                <table class="table table-hover table-striped table-bordered">
+                    <thead>
+                    <th colspan="4">类别3</th>
+                    </thead>
+                    <tr>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="c4ContentsDiv">
+                <table class="table table-hover table-striped table-bordered">
+                    <thead>
+                    <th colspan="4">类别4</th>
+                    </thead>
+                    <tr>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="c5ContentsDiv">
+                <table class="table table-hover table-striped table-bordered">
+                    <thead>
+                    <th colspan="4">类别5</th>
+                    </thead>
+                    <tr>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://www.网址.com">
+                                <img src="网站图标">
+                                <span>网站名称</span>
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div id="funcButtonsDiv">
+        <div id="backToTopDiv">
+            <a id="bToTopLink">
+                <img id="backIcon" src="backtt.png" onclick="backToTop()">
+            </a>
+        </div>
+        <div id="func2">
+            <a id="func2Link">
+                <img src="">
+            </a>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
